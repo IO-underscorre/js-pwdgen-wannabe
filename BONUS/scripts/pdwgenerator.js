@@ -11,7 +11,9 @@ window.onload = function () {
     let randomNumber = getRandomInt(10 , 99);
 
     // Log and print
-    console.log(`${firstName}${lastName}${favColor}${randomNumber}`)
+    let passwordString = `${firstName}${lastName}${favColor}${randomNumber}`
 
-    document.getElementById("password-container").innerHTML = `${firstName}${lastName}${randomNumber}`;
+    console.log(passwordString)
+
+    document.getElementById("password-container").innerHTML = passwordString;
 }

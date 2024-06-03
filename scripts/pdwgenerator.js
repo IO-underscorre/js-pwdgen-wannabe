@@ -5,6 +5,8 @@ let favColor = prompt("Insert your favourite color");
 const notSoRandomNumber = 23;
 
 // Log and print
-console.log(`${firstName}${lastName}${favColor}${notSoRandomNumber}`)
+let passwordString = `${firstName}${lastName}${favColor}${notSoRandomNumber}`;
 
-document.getElementById("password-container").innerHTML = `${firstName}${lastName}${notSoRandomNumber}`;
+console.log(passwordString)
+
+document.getElementById("password-container").innerHTML = passwordString;
