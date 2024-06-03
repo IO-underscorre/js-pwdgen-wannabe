@@ -10,9 +10,9 @@ window.onload = function () {
     let favColor = prompt("Insert your favourite color");
     let randomNumber = getRandomInt(10 , 99);
 
-    // Log and print
     let passwordString = `${firstName}${lastName}${favColor}${randomNumber}`
 
+    // Log and print
     console.log(passwordString)
 
     document.getElementById("password-container").innerHTML = passwordString;
